@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<ArrayOfTables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tables>
+    <Primary_keys>
+      <string>ID</string>
+    </Primary_keys>
+    <Table_colums>
+      <Columns>
+        <name>ID</name>
+        <type>int</type>
+        <data>
+          <string>1</string>
+          <string>2</string>
+          <string>3</string>
+          <string>4</string>
+          <string>5</string>
+          <string>6</string>
+        </data>
+        <constrains>
+          <string>Auto</string>
+        </constrains>
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+      <Columns>
+        <name>name</name>
+        <type>string</type>
+        <data>
+          <string>Gomaa</string>
+          <string>Amr</string>
+          <string>Shaine</string>
+          <string>Mohamed</string>
+          <string>Mahmoud</string>
+          <string>Ramy</string>
+        </data>
+        <constrains />
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+      <Columns>
+        <name>salary</name>
+        <type>int</type>
+        <data>
+          <string>3000</string>
+          <string>2051</string>
+          <string>3500</string>
+          <string>4000</string>
+          <string>4000</string>
+          <string>7000</string>
+        </data>
+        <constrains>
+          <string>&gt;2000</string>
+        </constrains>
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+      <Columns>
+        <name>FK_School</name>
+        <type>int</type>
+        <data>
+          <string>1</string>
+          <string>2</string>
+          <string>1</string>
+          <string>2</string>
+          <string />
+          <string />
+        </data>
+        <constrains />
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+    </Table_colums>
+    <table_name>Teacher</table_name>
+  </tables>
+  <tables>
+    <Primary_keys>
+      <string>ID</string>
+    </Primary_keys>
+    <Table_colums>
+      <Columns>
+        <name>ID</name>
+        <type>int</type>
+        <data>
+          <string>1</string>
+          <string>2</string>
+          <string>3</string>
+          <string>4</string>
+        </data>
+        <constrains>
+          <string>Auto</string>
+        </constrains>
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+      <Columns>
+        <name>name</name>
+        <type>string</type>
+        <data>
+          <string>Oba</string>
+          <string>Mataria</string>
+          <string>Ain_shiams</string>
+          <string>Tabary</string>
+        </data>
+        <constrains />
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+    </Table_colums>
+    <table_name>School</table_name>
+  </tables>
+  <tables>
+    <Primary_keys>
+      <string>ID</string>
+    </Primary_keys>
+    <Table_colums>
+      <Columns>
+        <name>ID</name>
+        <type>int</type>
+        <data>
+          <string>1</string>
+          <string>2</string>
+          <string>3</string>
+        </data>
+        <constrains>
+          <string>Auto</string>
+        </constrains>
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+      <Columns>
+        <name>name</name>
+        <type>string</type>
+        <data>
+          <string>Gomaa</string>
+          <string>Amr</string>
+          <string>Mohamed</string>
+        </data>
+        <constrains />
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+      <Columns>
+        <name>Address</name>
+        <type>string</type>
+        <data>
+          <string>6_elshike street</string>
+          <string>5_eloba</string>
+          <string>Mataria</string>
+        </data>
+        <constrains />
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+      <Columns>
+        <name>number_of_subjects</name>
+        <type>int</type>
+        <data>
+          <string>5</string>
+          <string>9</string>
+          <string>12</string>
+        </data>
+        <constrains />
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+      <Columns>
+        <name>FK_Teacher</name>
+        <type>int</type>
+        <data>
+          <string>1</string>
+          <string>2</string>
+          <string>5</string>
+        </data>
+        <constrains />
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+      <Columns>
+        <name>Test_uni</name>
+        <type>int</type>
+        <data>
+          <string>5</string>
+          <string>5</string>
+          <string>5</string>
+        </data>
+        <constrains />
+        <isforgin>false</isforgin>
+        <data_forgin />
+      </Columns>
+    </Table_colums>
+    <table_name>Student</table_name>
+  </tables>
+</ArrayOfTables>
